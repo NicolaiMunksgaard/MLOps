@@ -4,6 +4,8 @@ import typer
 from model import corrupt_mnist
 from model import MyAwesomeModel
 
+#lort
+
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
 
 app = typer.Typer()
